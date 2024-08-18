@@ -5,10 +5,14 @@ body {
 }
 
 h1 {    
-    font-size: 200%;
-    letter-spacing: 1.2em;
+    letter-spacing: 2em;
     border-bottom: solid 3px rgb(115, 115, 114);
     text-shadow: 1px 1px 1px greenyellow;
+    /* ここにGoogle Fontsを指定します */
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 .font-color-s {
@@ -22,10 +26,3 @@ h1 {
 #basic p {
    font-weight: bold;
  }
-
- .josefin-sans-<uniquifier> {
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}

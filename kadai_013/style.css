@@ -76,7 +76,8 @@ PC用のスタイル
   @media screen and (max-width: 767px) {
   /* 横幅設定 */
     body {
-     margin: 0;
+      min-width: 375px;
+      margin: 0;
     }
 
     /* PC用ナビゲーション非表示 */
